@@ -1,5 +1,6 @@
 package diplom3.api.models;
 
+
 public class User {
     private String email;
     private String password;
