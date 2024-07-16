@@ -1,5 +1,6 @@
 package diplom3.api.user;
 
+
 import diplom3.api.models.User;
 
 import static diplom3.utils.Utils.faker;
