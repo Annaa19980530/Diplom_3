@@ -9,6 +9,7 @@ import static org.junit.Assert.assertTrue;
 
 public class ConstructorTest extends BaseBeforeAndAfter {
 
+
     @Test
     @DisplayName("Проверка перехода к разделу 'Булки'")
     @Description("Соответствующий элемент отображается")
