@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: diplom3.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 17.398 s <<< FAILURE! - in diplom3.LoginTest
+loginWithPersonalCabinetButtonTest(diplom3.LoginTest)  Time elapsed: 4.527 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="AppHeader_header__link__3D_hX" href="/account">...</a> is not clickable at point (921, 44). Other element would receive the click: <div class="Modal_modal_overlay__x2ZCr"></div>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26cc74cca9a785761e6f5e578edf4338, clickElement {id=f.46BD2FC3E777EC54A41C9DE78CEB3792.d.F1B4E3334340803BA6D2D7B4270A2541.e.10}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\anuta\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50555}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50555/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (26cc74cca9a785761e6f5e578edf4338)] -> xpath: .//a[@class='AppHeader_header__link__3D_hX' and @href='/account']]
+Session ID: 26cc74cca9a785761e6f5e578edf4338
+	at diplom3.LoginTest.loginWithPersonalCabinetButtonTest(LoginTest.java:44)
+
